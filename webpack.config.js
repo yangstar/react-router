@@ -28,6 +28,7 @@ var config = {
         ]
         
     },
+
     plugins: [
         new HtmlWebpackPlugin({
 			template: __dirname + '/index.html',
