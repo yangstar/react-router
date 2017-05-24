@@ -26,7 +26,6 @@ import { addTodo1 } from './../actions/module1'
 
 let AddTodo = ({ dispatch }) => {
   let input
-
   return (
     <div>
       <form onSubmit={e => {
